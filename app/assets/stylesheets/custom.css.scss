@@ -1,1 +1,68 @@
 @import "semantic-ui";
+.ui.inverted.menu{
+  background-color: #194350 !important;
+
+}
+.ui.inverted.menu .item{
+  color: #ff8882 !important;
+}
+.ui.primary.buttons .button, .ui.primary.button{
+  background-color: #ff8882;
+color: #194350;
+}
+.coffee{
+  color:#ff8882
+}
+.power.off{
+  color:#ff8882
+}
+.user{
+  color:#9dbeb9
+}
+.lock{
+  color:#9dbeb9
+}
+.ui.header{
+  color: #194350 !important;
+}
+.chatbox{
+  height: 450px
+}
+.ui.cards > .card > .content, .ui.card > .content{
+  background: #9dbeb9;
+}
+.bordered.icon.edit{
+  background-color: #ff8882;
+  color: #194350;
+}
+.ui.form input[type="text"]{
+      background: #194350;
+      border-color: #194350;
+}
+.ui.form input[type="password"]{
+  background: #194350;
+  border-color: #194350;
+}
+.ui.form input[type="password"]:focus{
+  background: #194350;
+  border-color: #194350;
+}
+.ui.form input[type="text"]:focus{
+  background: #3b5f6a;
+  border-color: #194350;
+}
+.ui.placeholder.segment{
+  background: #9dbeb9;
+}
+.ui.blue.button{
+  background-color: #ff8882;
+color: #194350;
+}
+.ui.blue.button:hover{
+  background-color: #ffc2b4;
+  color: #9dbeb9;
+}
+.ui.big.button{
+  background-color: #ff8882;
+color: #194350;
+}
