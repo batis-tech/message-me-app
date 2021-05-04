@@ -2,19 +2,17 @@
   <i class="circular  coffee icon"></i>
   Say something
 </h4>
-
 <div class="ui two column grid">
   <div class="twelve wide column">
     <div class="ui fluid raised card chatbox">
-      <div class="content">
-        <div class="ui feed">
+      <div class="content" id="messages">
+        <div class="ui feed" id="message-container">
         <%= render 'messages/messages' %>
-
         </div>
       </div>
       <div class=" extra content">
         <div class="">
-          <%= form_for(@message, html: {class: "ui reply form", role: "form"}, url: message_path) do |f| %>
+          <%= form_for(@message, html: {class: "ui reply form", role: "form"}, url: message_path, remote: true) do |f| %>
             <div class="field">
             <div class="ui fluid primary icon input">
               <%= f.text_field :body  %>
